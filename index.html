@@ -3,22 +3,32 @@
 <head>
     <meta charset="utf-8">
     <title>Beta Pro</title>
-    <link href="_css/1reset.css" rel="stylesheet" type="text/css" />
+    <link href="_css/1reset_zero.css" rel="stylesheet" type="text/css" />
     <link href="_css/1styles.css" rel="stylesheet" type="text/css" />
     <link href="_css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body class="grids">
+<body class="">
 
       <header>
-        <section>
-          <a href="#" id="top">
-            <div class="logo"></div>
+        <section class="header_floor cover">
+          <a href="#" class="logo_link left">
+            <div class="logo" id="top"></div>
           </a>
-          <nav class="menu">
-            <menu></menu>
+          <nav class="top_menu left"> 
+            <menu class="cover">
+            	<li class="menu_items left"><a href="#">home</a></li>
+                <li class="menu_items left"><a href="#">features</a></li>
+                <li class="menu_items left"><a href="#">widgetkit</a></li>
+                <li class="menu_items left"><a href="#">icons</a></li>
+                <li class="menu_items left"><a href="#">wordpress</a></li>
+            </menu>
           </nav>
-          <div class="search"></div>
+          <div class="left last zedloos">
+          	<form class="search_form">
+            	<input type="text" value="" name="search" class="search" placeholder="search" />
+            </form>
+          </div>
         </section>
       </header>
     
@@ -65,7 +75,9 @@
       <footer>
         <section>
           <div class="copyright"></div>
-          <div class="top_btn"></div>
+          <div class="top_btn">
+          <a href="#top">Top</a>
+          </div>
           </section>
       </footer>
 
