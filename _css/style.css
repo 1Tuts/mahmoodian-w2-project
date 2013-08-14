@@ -1,11 +1,11 @@
 .grids > * {
-	outline:1px dashed black;	
+	outline:2px dashed black;	
 }
 
 .grids > * > * {
 	outline:1px dashed red;	
 }
 
-.grids > * > * > *{
+.grids > * > * > * {
 	outline:1px dashed blue;	
 }
