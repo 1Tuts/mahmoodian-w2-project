@@ -1,5 +1,5 @@
 .grids > * {
-	outline:2px dashed black;	
+	outline:1px dashed black;	
 }
 
 .grids > * > * {
@@ -8,4 +8,68 @@
 
 .grids > * > * > * {
 	outline:1px dashed blue;	
+}
+
+.grids > * > * > *  > *{
+	outline:1px dashed green;	
+}
+
+a {
+	text-decoration:none;	
+}
+
+/*--- Header ---*/
+
+.header_floor {
+	width:980px;
+	height:72px;
+	margin:0 auto;	
+	text-transform:uppercase;
+}
+
+.logo_link {
+	width:138px;
+	height:72px;	
+	display:block;
+	margin: 0 150px 0 0;
+}
+
+.logo {
+	background-image:url(../_image/Logo.gif);
+	background-repeat:no-repeat;
+	height:inherit;
+	width:inherit;
+}
+
+.top_menu {
+	height:72px;
+}
+
+.top_menu menu {
+	padding:0;
+	margin:0;	
+}
+
+.top_menu .menu_items a {
+	display:block;	
+	border-left:1px solid #CCC;
+	padding:0 15px;
+	height:72px;
+	line-height:72px;
+}
+
+search_form {
+	padding:0;
+	margin:0;
+	border:none;
+	outline:none;
+	
+}
+
+.search {
+	width:100px;
+	height:71px;
+	padding:0 0 0 55px;
+	margin:0;
+	border:none;
 }
