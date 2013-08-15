@@ -25,6 +25,8 @@ a {
 	height:72px;
 	margin:0 auto;	
 	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 }
 
 .logo_link {
@@ -53,7 +55,7 @@ a {
 .top_menu .menu_items a {
 	display:block;	
 	border-left:1px solid #CCC;
-	padding:0 15px;
+	padding:0 18px;
 	height:72px;
 	line-height:72px;
 }
@@ -69,7 +71,25 @@ search_form {
 .search {
 	width:100px;
 	height:71px;
-	padding:0 0 0 55px;
+	padding-left: 40px;
 	margin:0;
+	font-size: 15px;
+	color: #CCC;
+	text-transform: uppercase;
+	background-image:url(../_image/search.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
 	border:none;
+}
+
+/*--- Slideshow ---*/
+
+.slidshow {
+	height:459px;	
+}
+
+.slideshow_floor img {
+	height:auto;
 }
