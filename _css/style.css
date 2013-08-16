@@ -160,3 +160,53 @@ search_form {
 .s4 {
 	background-image:url(../_image/slideshow.gif);
 }
+
+/*--- Features ---*/
+
+.features {
+	padding:20px 0;
+	margin:0;
+	background: #B22026;
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #CA333A 0%, #8E1D20 100%);
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #CA333A 0%, #8E1D20 100%);
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #CA333A 0%, #8E1D20 100%);
+	background-image: radial-gradient(center, ellipse farthest-corner, #CA333A 0%, #8E1D20 100%);	
+}
+
+.features_floor {
+	width:1008px;
+	margin:0 auto;
+}
+
+.panel1 ,
+.panel2 {
+	width:335px;
+	padding-top: 30px;	
+}
+
+.panel3 {
+	margin-left:670px;
+	padding-top: 30px;
+}
+
+.panel_items {
+	width:320px;
+	color:white;
+}
+
+.panel_items img {
+	margin: 0 10px 0 0;	
+}
+
+.feature_text h3 {
+	font-family: 'Open Sans', sans-serif;
+	display:inline;	
+	text-transform:uppercase;
+	font-size:17px;
+}
+
+.feature_text h4 {
+	font-family: 'Open Sans', sans-serif;
+	display:inline;
+	font-size:15px;	
+}
