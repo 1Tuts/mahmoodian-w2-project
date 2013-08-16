@@ -120,6 +120,8 @@ search_form {
 	transition:all .6s;
 	-moz-transition:all .6s;
 	-webkit-transition:all .6s;
+	background-position:left;
+	background-repeat:no-repeat;
 }
 
 .slideshow_floor .slids a {
@@ -144,28 +146,17 @@ search_form {
 
 .s1 {
 	background-image:url(../_image/slideshow.gif);
-	background-position:center;
-	background-repeat:no-repeat;
-	background-size:cover;	
 }
 
 .s2 {
 	background-image:url(../_image/slideshow.gif);
-	background-position:center;
-	background-repeat:no-repeat;
-	background-size:cover;	
 }
 
 .s3 {
 	background-image:url(../_image/slideshow.gif);
-	background-position:center;
-	background-repeat:no-repeat;
-	background-size:cover;	
+
 }
 
 .s4 {
 	background-image:url(../_image/slideshow.gif);
-	background-position:left;
-	background-repeat:no-repeat;
-	background-size:cover;	
 }
