@@ -49,15 +49,20 @@ a {
 
 .top_menu menu {
 	padding:0;
-	margin:0;	
+	margin:0 0 -1px 0;	
 }
 
 .top_menu .menu_items a {
 	display:block;	
-	border-left:1px solid #CCC;
-	padding:0 18px;
+	border-left:1px solid #ddd;
+	padding:0 20px;
 	height:72px;
 	line-height:72px;
+}
+
+.top_menu .menu_items a:hover {
+	background-color:#BD2F35;
+	color:white;	
 }
 
 search_form {
@@ -69,25 +74,30 @@ search_form {
 }
 
 .search {
-	width:100px;
-	height:71px;
+	width:120px;
+	height:70px;
 	padding-left: 40px;
+	padding-top:0;
+	padding-bottom:0;
+	padding-right:0;
 	margin:0;
 	font-size: 15px;
-	color: #CCC;
+	color: #E9E9E9;
 	text-transform: uppercase;
 	background-image:url(../_image/search.png);
 	background-repeat:no-repeat;
 	background-position:left;
-	border-left:1px solid #CCC;
-	border-right:1px solid #CCC;
-	border:none;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-bottom:none;
+	border-top:none;
 }
 
 /*--- Slideshow ---*/
 
 .slidshow {
-	height:459px;	
+	height:459px;
+	margin:0;	
 }
 
 .slideshow_floor img {
