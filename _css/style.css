@@ -175,38 +175,28 @@ search_form {
 
 .features_floor {
 	width:1008px;
-	margin:0 auto;
-}
-
-.panel1 ,
-.panel2 {
-	width:335px;
-	padding-top: 30px;	
-}
-
-.panel3 {
-	margin-left:670px;
-	padding-top: 30px;
+	margin:20px auto 10px;
 }
 
 .panel_items {
 	width:320px;
 	color:white;
+	margin: 0 20px 30px 0;
 }
 
 .panel_items img {
-	margin: 0 10px 0 0;	
+	margin: 0 15px 0 0;	
 }
 
 .feature_text h3 {
 	font-family: 'Open Sans', sans-serif;
-	display:inline;	
 	text-transform:uppercase;
 	font-size:17px;
+	margin:20px 0 5px 0;
 }
 
 .feature_text h4 {
 	font-family: 'Open Sans', sans-serif;
-	display:inline;
-	font-size:15px;	
+	font-size:15px;
+	margin:0 5px 2px 110px;
 }
