@@ -279,3 +279,24 @@ search_form {
 	background-position:left;
 	background-repeat:no-repeat;	
 }
+
+.images_about {
+	width: 550px;
+	margin: 40px 5px 20px 80px;
+}
+
+.images_about a img {
+	transition:all .2s;
+	-moz-transition:all .2s;
+	-o-transition:all .2s;
+	-webkit-transition:all .2s;	
+}
+
+.images_about a:hover img {
+	z-index:20;
+	transform:scale(1.3 , 1.3);
+	-moz-transform:scale(1.3 , 1.3);
+	-webkit-transform:scale(1.3 , 1.3);
+	-o-transform:scale(1.3 , 1.3);
+	box-shadow:3px 3px 10px black;	
+}
