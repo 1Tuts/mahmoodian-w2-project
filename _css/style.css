@@ -244,6 +244,8 @@ search_form {
 	padding:20px 0;
 	border-top: 1px solid rgba(0,0,0,0.15);
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+	margin:0;
+	padding:0;
 }
 
 .about_floor {
@@ -299,4 +301,37 @@ search_form {
 	-webkit-transform:scale(1.3 , 1.3);
 	-o-transform:scale(1.3 , 1.3);
 	box-shadow:3px 3px 10px black;	
+}
+
+/*--- Team ---*/
+
+.team {
+	margin:0;
+	padding:0;
+	background: #B22026;
+	background: -moz-radial-gradient(center, ellipse farthest-corner, #CA333A 0%, #8E1D20 100%);
+	background: -o-radial-gradient(center, ellipse farthest-corner, #CA333A 0%, #8E1D20 100%);
+	background: -webkit-radial-gradient(center, ellipse farthest-corner, #CA333A 0%, #8E1D20 100%);
+	background: radial-gradient(center, ellipse farthest-corner, #CA333A 0%, #8E1D20 100%);	
+}
+
+.team_floor {
+	margin:50px 0;
+}
+
+.text_team {
+	text-align:center;
+	color:white;	
+}
+
+.text_team h1 {
+	text-transform:uppercase;
+	font-size:40px;
+	font-family: 'Signika', sans-serif;
+	margin:10px 0;	
+}
+
+.text_team span {
+	text-transform:capitalize;
+	margin:0;
 }
