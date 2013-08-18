@@ -200,3 +200,16 @@ search_form {
 	font-size:15px;
 	margin:0 5px 2px 110px;
 }
+
+/*--- About ---*/
+
+.about {
+	background: #6F2526;
+	background: -moz-radial-gradient(center, ellipse farthest-corner, #A0383A 0%, #4C1B1B 100%);
+	background: -o-radial-gradient(center, ellipse farthest-corner, #A0383A 0%, #4C1B1B 100%);
+	background: -webkit-radial-gradient(center, ellipse farthest-corner, #A0383A 0%, #4C1B1B 100%);
+	background: radial-gradient(ellipse farthest-corner at center, #A0383A 0%, #4C1B1B 100%);	
+	padding:20px 0;
+	border-top: 1px solid rgba(0,0,0,0.15);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+}
