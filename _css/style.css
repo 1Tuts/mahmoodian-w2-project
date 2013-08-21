@@ -434,6 +434,5 @@ search_form {
 }
 
 .follow i {
-	height:50px;
-	width:50px;	
+	font-weight:800;
 }
