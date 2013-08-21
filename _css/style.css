@@ -396,3 +396,27 @@ search_form {
 	background-repeat:no-repeat;
 	background-position:center;	
 }
+
+/*--- Main ---*/
+
+.main {
+	background: #40393B;
+	border-top: 1px solid rgba(0,0,0,0.15);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+	height:385px;
+	padding:0 20px;
+	margin:0;
+	color:white;
+}	
+
+.techno a {
+	border:1px solid rgba(255,255,255,.5);
+	display:block;
+	opacity:.5;
+}
+
+.techno a:hover {
+	opacity:1;
+	background-color: rgba(255,255,255,.1);
+	border:1px solid rgba(255,255,255,1);	
+}
