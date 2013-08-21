@@ -22,6 +22,10 @@ a {
 	text-decoration:none;	
 }
 
+body {
+  *zoom:1;
+}
+
 /*--- Buttons ---*/
 
 .more_btn {
@@ -407,7 +411,11 @@ search_form {
 	padding:0 20px;
 	margin:0;
 	color:white;
-}	
+}
+
+.main h3 {
+	border-bottom:1px solid gray;	
+}
 
 .techno a {
 	border:1px solid rgba(255,255,255,.5);
@@ -425,14 +433,25 @@ search_form {
 	border-bottom:1px solid gray;	
 	padding:10px 5px;
 }
-.contact .address {
-	border-top:1px solid gray;	
+
+.follow section {
+	padding:5px 10px;		
 }
 
 .follow a {
-	display:block;	
+	font-size:25px;
+	color:rgba(255,255,255,.4);	
 }
 
-.follow i {
-	font-weight:800;
+.follow a:hover {
+	color: rgba(255,255,255,1);	
+}
+
+.links a {
+	display:block;
+	width:200px;
+	height:30px;
+	color:white;
+	text-transform:capitalize;
+	text-align:center;
 }
