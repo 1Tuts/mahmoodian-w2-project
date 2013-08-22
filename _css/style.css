@@ -1,23 +1,3 @@
-.grids > * {
-	outline:1px dashed black;	
-}
-
-.grids > * > * {
-	outline:1px dashed red;	
-}
-
-.grids > * > * > * {
-	outline:1px dashed blue;	
-}
-
-.grids > * > * > *  > *{
-	outline:1px dashed green;	
-}
-
-.grids > * > * > *  > * > *{
-	outline:1px dashed white;	
-}
-
 a {
 	text-decoration:none;	
 }
@@ -182,20 +162,20 @@ search_form {
 }
 
 .s1 {
-	background-image:url(../_image/slideshow.gif);
+	background-image:url(../_image/slide1.jpg);
 }
 
 .s2 {
-	background-image:url(../_image/slideshow.gif);
+	background-image:url(../_image/slide2.png);
 }
 
 .s3 {
-	background-image:url(../_image/slideshow.gif);
+	background-image:url(../_image/slide3.png);
 
 }
 
 .s4 {
-	background-image:url(../_image/slideshow.gif);
+	background-image:url(../_image/slide4.png);
 }
 
 /*--- Features ---*/
@@ -456,7 +436,7 @@ search_form {
 }
 
 .link_icon {
-	padding:10px;
+	padding:5px;
 	margin:0 5px;	
 }
 
