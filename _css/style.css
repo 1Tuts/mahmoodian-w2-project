@@ -55,10 +55,6 @@ a {
 	width:inherit;
 }
 
-.top_menu {
-	height:72px;
-}
-
 .top_menu menu {
 	padding:0;
 	margin:0 0 -1px 0;	
@@ -67,14 +63,18 @@ a {
 .top_menu .menu_items a {
 	display:block;	
 	border-left:1px solid #ddd;
-	padding:0 20px;
-	height:72px;
-	line-height:72px;
+	padding:0 18px;
+	height:70px;
+	line-height:70px;
+}
+
+.top_menu .first_item {
+	border-bottom:1px solid #BD2F35;	
 }
 
 .top_menu .menu_items a:hover {
 	background-color:#BD2F35;
-	color:white;	
+	color:white;
 }
 
 .search_box {
@@ -133,7 +133,7 @@ search_form {
 	height:500px;
 	width:320px;
 	float:left;
-	box-shadow:0 5px 10px black;
+	box-shadow:0 3px 5px black;
 	transition:all .6s;
 	-moz-transition:all .6s;
 	-webkit-transition:all .6s;
@@ -357,27 +357,27 @@ search_form {
 }
 
 .slider_team_item1 {
-	background-image:url(../_image/team_image.png);
+	background-image:url(../_image/team_1.jpg);
 	background-repeat:no-repeat;
 	background-position:center;	
 }
 
 .slider_team_item2 {
-	background-image:url(../_image/team_image.png);
+	background-image:url(../_image/team_2.jpg);
 	background-repeat:no-repeat;
 	background-position:center;	
 }
 
 
 .slider_team_item3 {
-	background-image:url(../_image/team_image.png);
+	background-image:url(../_image/team_3.jpg);
 	background-repeat:no-repeat;
 	background-position:center;	
 }
 
 
 .slider_team_item4 {
-	background-image:url(../_image/team_image.png);
+	background-image:url(../_image/team_4.jpg);
 	background-repeat:no-repeat;
 	background-position:center;	
 }
@@ -408,10 +408,12 @@ search_form {
 .contact ,
 .links {
 	width:260px;
+	font-size:14px;
 }
 
 .main h3 {
 	border-bottom:1px solid gray;	
+	font-size:20px;
 }
 
 .techno a {
@@ -455,7 +457,6 @@ search_form {
 	color:white;
 	text-transform:capitalize;
 	text-align:center;
-	margin:10px 0;
 }
 
 .links a:hover {
