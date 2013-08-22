@@ -22,10 +22,6 @@ a {
 	text-decoration:none;	
 }
 
-body {
-  *zoom:1;
-}
-
 /*--- Buttons ---*/
 
 .more_btn {
@@ -99,6 +95,11 @@ body {
 .top_menu .menu_items a:hover {
 	background-color:#BD2F35;
 	color:white;	
+}
+
+.search_box {
+	margin:0;
+	padding:0;	
 }
 
 search_form {
@@ -407,10 +408,26 @@ search_form {
 	background: #40393B;
 	border-top: 1px solid rgba(0,0,0,0.15);
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
-	height:385px;
 	padding:0 20px;
 	margin:0;
 	color:white;
+}
+
+.main_floor {
+	width:830px;
+	margin:0 auto;
+	padding:20px 0;	
+}
+
+.techno ,
+.contact {
+	margin-right:20px;	
+}
+
+.techno ,
+.contact ,
+.links {
+	width:260px;
 }
 
 .main h3 {
@@ -438,6 +455,11 @@ search_form {
 	padding:5px 10px;		
 }
 
+.link_icon {
+	padding:10px;
+	margin:0 5px;	
+}
+
 .follow a {
 	font-size:25px;
 	color:rgba(255,255,255,.4);	
@@ -449,9 +471,55 @@ search_form {
 
 .links a {
 	display:block;
-	width:200px;
-	height:30px;
+	padding:10px 0;
 	color:white;
 	text-transform:capitalize;
 	text-align:center;
+	margin:10px 0;
+}
+
+.links a:hover {
+	background-color:rgba(255,255,255,.05);	
+}
+
+/*--- Map ---*/
+
+.map {
+	overflow:hidden;
+	padding:0;
+	margin:0;	
+}
+
+.map > iframe {
+	margin:0;
+	padding:0;
+}
+
+/*--- Footer ---*/
+
+footer {
+	background: #40393B;
+	border-top: 1px solid rgba(0,0,0,0.15);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+	color:white;
+	margin:0;
+	padding:0;	
+}
+
+.copyright {
+	width:600px;
+	padding:10px 20px;	
+	margin:20px 10px 20px 220px;
+	font-size:15px;
+}
+
+.top_btn {
+	width:50px;
+	height:50px;
+	margin:30px 20px 30px 300px;	
+}
+
+.top_btn a {
+	color:white;	
+	font-size:20px;
 }
