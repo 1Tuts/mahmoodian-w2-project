@@ -8,7 +8,6 @@ a {
 	text-align:center;
 	margin:15px auto;	
 	width:150px;
-	height:25px;
 }
 
 .more_btn a {
@@ -22,8 +21,7 @@ a {
 	border-radius:5px;
 	font-family: 'Open Sans', sans-serif;
 	font-size:15px;	
-	padding:5px 10px;
-	line-height:25px;	
+	padding:10px 10px;
 }
 
 .more_btn a:hover {
@@ -55,7 +53,7 @@ a {
 	width:inherit;
 }
 
-.top_menu menu {
+.top_menu > menu {
 	padding:0;
 	margin:0 0 -1px 0;	
 }
@@ -65,11 +63,11 @@ a {
 	border-left:1px solid #ddd;
 	padding:0 18px;
 	height:70px;
-	line-height:70px;
+	line-height:4.6;
 }
 
 .top_menu .first_item {
-	border-bottom:1px solid #BD2F35;	
+	border-bottom:2px solid #BD2F35;	
 }
 
 .top_menu .menu_items a:hover {
@@ -87,7 +85,6 @@ search_form {
 	margin:0;
 	border:none;
 	outline:none;
-	
 }
 
 .search {
@@ -110,13 +107,16 @@ search_form {
 	border-top:none;
 }
 
+/*--- SubMenu ---*/
+
+
 /*--- Slideshow ---*/
 
-.slidshow {
+.slideshow {
 	height:500px;
 	margin:0;
 	padding:0;
-	overflow:hidden;	
+	overflow:hidden;
 }
 
 .slideshow_floor {
@@ -133,7 +133,7 @@ search_form {
 	height:500px;
 	width:320px;
 	float:left;
-	box-shadow:0 3px 5px black;
+	box-shadow:0 4px 20px black;
 	transition:all .6s;
 	-moz-transition:all .6s;
 	-webkit-transition:all .6s;
@@ -146,8 +146,8 @@ search_form {
 	height:500px;	
 }
 
-.slideshow_floor .slids:last-child {
-	padding-right:300px;
+.slideshow_floor .akhari {
+	padding-right:200px;
 }
 
 .slideshow_floor menu:hover .slids {
@@ -230,11 +230,10 @@ search_form {
 	border-top: 1px solid rgba(0,0,0,0.15);
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
 	margin:0;
-	padding:0;
 }
 
 .about_floor {
-	margin:0 125px;	
+	width:1000px;
 }
 
 .text_about h2 {
@@ -322,15 +321,15 @@ search_form {
 }
 
 .slider_team {
-	margin:10px 0;
-	padding:10px 5px 10px 200px;
+	width:900px;
+	padding:40px 0;
 }
 
 .slider_team section {
 	width:200px;
 	height:200px;
 	margin:5px 30px 5px 0;
-	border-radius:50%;
+	border-radius:200px;
 	text-align:center;
 	box-shadow:0 0 15px black inset;	
 }
@@ -339,7 +338,7 @@ search_form {
 	display:none;
 	height:100%;
 	width:100%;
-	border-radius:50%;
+	border-radius:200px;
 	text-transform:capitalize;
 	font-family: 'Signika', sans-serif;
 	font-size:20px;
@@ -471,6 +470,10 @@ search_form {
 	margin:0;	
 }
 
+.map_box {
+	width:1300px;	
+}
+
 .map > iframe {
 	margin:0;
 	padding:0;
@@ -487,17 +490,21 @@ footer {
 	padding:0;	
 }
 
+.footer_box {
+	width:900px;	
+}
+
 .copyright {
 	width:600px;
-	padding:10px 20px;	
-	margin:20px 10px 20px 220px;
+	padding:10px 0;	
+	margin:20px 0;
 	font-size:15px;
 }
 
 .top_btn {
 	width:50px;
 	height:50px;
-	margin:30px 20px 30px 300px;	
+	margin:30px 0 30px 200px;	
 }
 
 .top_btn a {
