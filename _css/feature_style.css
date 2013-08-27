@@ -1,0 +1,177 @@
+a {
+	text-decoration:none;
+}
+
+
+/*--- Header ---*/
+
+.header_floor {
+	width:980px;
+	height:72px;
+	margin:0 auto;	
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+.logo_link {
+	width:138px;
+	height:72px;	
+	display:block;
+	margin: 0 150px 0 0;
+}
+
+.logo {
+	background-image:url(../_image/Logo.png);
+	background-repeat:no-repeat;
+	height:inherit;
+	width:inherit;
+}
+
+.top_menu li {
+	position:relative;	
+}
+
+.top_menu .menu_box {
+	padding:0;
+	margin:0 0 -1px 0;	
+}
+
+.top_menu .menu_items > a {
+	display:block;	
+	color:#666;
+	border-left:1px solid #ddd;
+	padding:0 18px;
+	height:70px;
+	line-height:4.6;
+}
+
+.top_menu .first_item {
+	border-bottom:2px solid #BD2F35;	
+}
+
+.top_menu .menu_items:hover > a {
+	background-color:#BD2F35;
+	color:white;
+}
+
+.search_box {
+	margin:0;
+	padding:0;	
+}
+
+search_form:focus {
+	padding:0;
+	margin:0;
+	border:none;
+	outline:none;
+}
+
+.search {
+	height:70px;
+	width:118px;
+	padding:0 0 0 40px;
+	margin:0;
+	font-size: 15px;
+	color: #999;
+	text-transform: uppercase;
+	background-image:url(../_image/search.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-bottom:none;
+	border-top:none;
+}
+
+/*--- SubMenu ---*/
+
+.submenu {
+	position:absolute;
+	top:-50px;
+	left:-100px;
+	font-size:13px;
+	min-width:100%;
+	width:450px;	
+	background-color:#BD2F35;
+	opacity:0;
+	pointer-events:none;
+	transition:all .5s;
+	-o-transition:all .5s;
+	-moz-transition:all .5s;
+	-webkit-transition:all .5s;
+	margin:0;
+	padding:0;
+}
+
+.submenu a {
+	color:white;
+	display:block;
+	padding:10px 100px 10px 0;
+	width:100px;
+}
+
+.submenu a:hover {
+	color:rgba(255,255,255,.5);	
+}
+
+.submenu li {
+	border-top:1px solid rgba(255,255,255,.2);
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	margin:0 10px;
+}
+
+.submenu li:first-child {
+	border:none;	
+}
+
+.top_menu li:hover .submenu {
+	opacity:1;
+	pointer-events:auto;
+	top:100%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--- Footer ---*/
+
+footer {
+	background: #40393B;
+	border-top: 1px solid rgba(0,0,0,0.15);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+	color:white;
+	margin:0;
+	padding:0;	
+}
+
+.footer_box {
+	width:900px;	
+}
+
+.copyright {
+	width:600px;
+	padding:10px 0;	
+	margin:20px 0;
+	font-size:15px;
+}
+
+.top_btn {
+	width:50px;
+	height:50px;
+	margin:30px 0 30px 200px;	
+}
+
+.top_btn a {
+	color:white;	
+	font-size:20px;
+}
