@@ -1,3 +1,21 @@
+/*--- Grids ---*/
+
+.grids > * {
+	outline:1px solid red;	
+}
+.grids > * > * > * {
+	outline:1px dashed green;	
+}
+.grids > * > * > * > * {
+	outline:1px dashed blue;	
+}
+.grids > * > * > * > * > * {
+	outline:1px dashed gray;	
+}
+.grids > * > * > * > * > * > * {
+	outline:1px dashed black;	
+}
+
 a {
 	text-decoration:none;
 }
@@ -133,14 +151,19 @@ search_form:focus {
 	top:100%;	
 }
 
+/*--- Main ---*/
 
+.main_floor {
+	width:980px;	
+}
 
+.left_panel {
+	
+}
 
-
-
-
-
-
+.right_panel {
+	width:245px;
+}
 
 
 /*--- Footer ---*/
