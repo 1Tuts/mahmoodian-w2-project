@@ -1,5 +1,5 @@
 a {
-	text-decoration:none;	
+	text-decoration:none;
 }
 
 /*--- Buttons ---*/
@@ -64,6 +64,7 @@ a {
 
 .top_menu .menu_items > a {
 	display:block;	
+	color:#666;
 	border-left:1px solid #ddd;
 	padding:0 18px;
 	height:70px;
