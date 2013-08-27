@@ -233,37 +233,21 @@ search_form:focus {
 }
 
 .menu1,
-.menu3,
-.menu4 {
+.menu3 {
 	border:1px solid #DBDBDB;
-	padding:0 10px 10px 10px ;
+	padding:5px 10px 5px 10px ;
 	margin:0;
 	color:#999;
 }
 
 .menu1 h4 ,
-.menu3 h4 ,
-.menu4 h4 {	
+.menu3 h4  {	
 	color:#CA313A;
 }
 
 .menu1 a {
 	color:#999;
 	font-size:14px;
-}
-
-.menu2 {
-	box-shadow:inset 1px 0px 17px rgba(0,0,0,0.15);
-	color:#FFF;
-	text-shadow:0 -1px 0 rgba(0,0,0,0.3);	
-	border:1px solid #922F32;
-	background: #CA333A;
-	padding:0 20px 5px;	
-}
-
-.menu2 section {
-	font-size:14px;
-	margin:10px 0;
 }
 
 .menu3 .menu3_main {
@@ -274,7 +258,7 @@ search_form:focus {
 .more_btn {
 	text-align:center;
 	margin:15px auto;	
-	width:120px;
+	width:160px;
 }
 
 .more_btn a {
@@ -294,15 +278,6 @@ search_form:focus {
 
 .more_btn a:hover {
 	box-shadow:0 0 8px black inset;
-}
-
-.menu4 section {
-	font-size:14px;	
-}
-
-.menu4 ul {
-	list-style-image:url(../_image/tick.png);
-	margin:10px 0;	
 }
 
 /*--- Footer ---*/

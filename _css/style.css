@@ -41,7 +41,7 @@ a {
 
 .logo_link {
 	width:138px;
-	height:72px;	
+	height:70px;	
 	display:block;
 	margin: 0 150px 0 0;
 }
@@ -71,8 +71,9 @@ a {
 	line-height:4.6;
 }
 
-.top_menu .first_item {
+.top_menu .active > a {
 	border-bottom:2px solid #BD2F35;	
+	color:#BD2F35;
 }
 
 .top_menu .menu_items:hover > a {
